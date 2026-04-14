@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Torre del Vilar - Limpieza</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f9; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 150px; }
+        .card { background: white; padding: 150px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .bayeta { width: 100px; height: 100px; margin: 0 auto 10px; border-radius: 50%; border: 4px solid #333; }
+        .azul { background-color: #007bff; }
+        .amarilla { background-color: #ffeb3b; }
+        .roja { background-color: #f44336; }
+        .verde { background-color: #4caf50; }
+        h2 { font-size: 1.2rem; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>Estado de Limpieza - La Torre del Vilar</h1>
+    <div class="grid">
+        <div class="card">
+            <div class="bayeta azul"></div>
+            <h2>Habitación 1</h2>
+            <p>Bayeta Azul: Cristales y Polvo</p>
+        </div>
+        <div class="card">
+            <div class="bayeta amarilla"></div>
+            <h2>Habitación 2</h2>
+            <p>Bayeta Amarilla: Desinfección</p>
+        </div>
+        <div class="card">
+            <div class="bayeta roja"></div>
+            <h2>Baños</h2>
+            <p>Bayeta Roja: Sanitarios</p>
+        </div>
+        <div class="card">
+            <div class="bayeta verde"></div>
+            <h2>Cocina</h2>
+            <p>Bayeta Verde: Zonas Comunes</p>
+        </div>
+    </div>
+</body>
+</html>
